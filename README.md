@@ -1,24 +1,38 @@
+<!-- 🌌 Particle Background -->
+<p align="center">
+  <img src="https://github.com/DenverCoder1/demolab-assets/blob/main/animated-background.svg" width="100%" alt="animated particle background">
+</p>
+
 <!-- 💫 Typing Intro -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hey+there%2C+I'm+Muhammad+Faizan+👋;Data+Scientist+%7C+AI+Engineer+%7C+ML+Wizard;Turning+Data+Into+Intelligence+%E2%9C%A8;Exploring+AI%2C+Automation+%26+Innovation+🚀" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hey+there%2C+I'm+Muhammad+Faizan+👋;AI+Engineer+%7C+Data+Scientist+%7C+Tech+Visionary;Building+Futuristic+AI+Experiences+🚀;Turning+Ideas+Into+Intelligence+💡" alt="Typing SVG" />
   </a>
 </p>
 
 ---
 
-### 🌌 About Me  
-
-💫 I'm **Muhammad Faizan**, a passionate **AI & Data Science Engineer** who loves building futuristic stuff — from **voice AI agents** and **predictive ML models** to **automated data dashboards**.  
-
-🔭 Currently building smart solutions at my **Agri-Tech Startup – Fassal.ai**, empowering farmers with data-driven insights.  
-💡 Obsessed with **AI**, **Deep Learning**, and **Creative Tech** that makes life simpler.  
-🎨 I love designing sleek, animated UIs and blending tech with art.  
-🎧 When not coding — you’ll find me exploring music, astrophysics, or new AI APIs.  
+<!-- 🌠 Profile Image with Neon Glow -->
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/105116211?v=4" alt="profile" width="200" style="border-radius:50%; box-shadow:0 0 30px #00F7FF; border: 3px solid #00F7FF;">
+</p>
 
 ---
 
-### 🧠 Tech Universe I Play In  
+## 🧬 About Me  
+
+> 💡 “AI is not the future. It’s the *now* — and I’m living it.”  
+
+👋 Hey, I’m **Muhammad Faizan**, an **AI & Data Science Engineer** from Pakistan.  
+I thrive at the intersection of **Machine Learning**, **Creative Tech**, and **Automation**.  
+
+🚀 Founder @ **Fassal.ai** — transforming agriculture with real-time AI-powered insights.  
+🎨 Passionate about blending **data, design, and deep learning** to create magic.  
+⚙️ Building AI Agents, Voice Interfaces, and futuristic dashboards that *actually think.*  
+
+---
+
+## ⚡ Tech Universe I Play In  
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,opencv,html,css,js,react,fastapi,flask,aws,git,linux,figma,ps,vscode&perline=9" />
@@ -26,20 +40,28 @@
 
 ---
 
-### ⚡ GitHub Stats  
+## 🌐 3D GitHub Stats  
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=faizan-yousaf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF" />
-  <img width="48%" src="https://streak-stats.demolab.com?user=faizan-yousaf&theme=tokyonight&hide_border=true&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" />
+  <img src="https://github-readme-stats.vercel.app/api?username=faizan-yousaf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF" width="48%" />
+  <img src="https://streak-stats.demolab.com?user=faizan-yousaf&theme=tokyonight&hide_border=true&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" width="48%" />
 </p>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=faizan-yousaf&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=faizan-yousaf&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF" width="48%" />
 </p>
 
 ---
 
-### 🏆 Achievements  
+## 🧠 3D Holographic GitHub Profile Card  
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=faizan-yousaf&theme=tokyonight" width="90%" />
+</p>
+
+---
+
+## 🏆 Achievements  
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=faizan-yousaf&theme=tokyonight&no-frame=true&margin-w=10&row=1&column=6" />
@@ -47,7 +69,7 @@
 
 ---
 
-### 🧩 3D Contribution Grid  
+## 🧩 3D Contribution Grid Snake  
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/output/github-contribution-grid-snake.svg" alt="snake animation" />
@@ -55,7 +77,15 @@
 
 ---
 
-### 💬 Connect With Me  
+## 🌌 Animated 3D Globe of Repositories  
+
+<p align="center">
+  <img src="https://github.com/ashutosh00710/github-readme-activity-graph/raw/master/assets/3d-globe.gif" width="300px" />
+</p>
+
+---
+
+## 💬 Connect With Me  
 
 <p align="center">
   <a href="https://github.com/faizan-yousaf"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -66,7 +96,8 @@
 
 ---
 
-### 🚀 Fun Fact  
-> "AI won’t replace you — but a person using AI will." 😎  
+## 🌠 Fun Fact  
+
+> “Some dream in color, I dream in **code** and **neon gradients**.” 🌈💻  
 
 ---
