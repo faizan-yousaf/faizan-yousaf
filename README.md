@@ -1,12 +1,7 @@
-<!-- 🌌 Particle Background -->
-<p align="center">
-  <img src="https://github.com/DenverCoder1/demolab-assets/blob/main/animated-background.svg" width="100%" alt="animated particle background">
-</p>
-
 <!-- 💫 Typing Intro -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hey+there%2C+I'm+Muhammad+Faizan+👋;AI+Engineer+%7C+Data+Scientist+%7C+Tech+Visionary;Building+Futuristic+AI+Experiences+🚀;Turning+Ideas+Into+Intelligence+💡" alt="Typing SVG" />
+  <a href="https://readme-typing-svg.herokuapp.com">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hey+there%2C+I'm+Muhammad+Faizan+👋;AI+Engineer+%7C+Data+Scientist+%7C+Tech+Visionary;Building+Futuristic+AI+Experiences+🚀;Turning+Ideas+Into+Intelligence+💡" alt="Typing SVG" />
   </a>
 </p>
 
@@ -40,20 +35,20 @@ I thrive at the intersection of **Machine Learning**, **Creative Tech**, and **A
 
 ---
 
-## 🌐 3D GitHub Stats  
+## 🌐 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=faizan-yousaf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF" width="48%" />
-  <img src="https://streak-stats.demolab.com?user=faizan-yousaf&theme=tokyonight&hide_border=true&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" width="48%" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=faizan-yousaf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF" />
+  <img width="48%" src="https://streak-stats.demolab.com?user=faizan-yousaf&theme=tokyonight&hide_border=true&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=faizan-yousaf&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF" width="48%" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=faizan-yousaf&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF" />
 </p>
 
 ---
 
-## 🧠 3D Holographic GitHub Profile Card  
+## 🧠 3D Holographic Profile Card  
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=faizan-yousaf&theme=tokyonight" width="90%" />
@@ -69,18 +64,26 @@ I thrive at the intersection of **Machine Learning**, **Creative Tech**, and **A
 
 ---
 
-## 🧩 3D Contribution Grid Snake  
+## 🧩 GitHub Contribution Snake 🐍  
+
+> This is one of the coolest parts — it auto-updates daily with your commits!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/faizan-yousaf/faizan-yousaf/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </p>
+
+> 🔧 Make sure you have this workflow added to your repo:
+> `.github/workflows/snake.yml` → I’ll give you that file if you want.
 
 ---
 
-## 🌌 Animated 3D Globe of Repositories  
+## 🌌 Particle Background (Live Demo Embed)  
+
+> GitHub blocks animated SVG backgrounds directly,  
+> but you can simulate it like this 👇
 
 <p align="center">
-  <img src="https://github.com/ashutosh00710/github-readme-activity-graph/raw/master/assets/3d-globe.gif" width="300px" />
+  <img src="https://i.ibb.co/xqTbr6N/particle-bg.gif" alt="particle background" width="100%" />
 </p>
 
 ---
@@ -99,5 +102,3 @@ I thrive at the intersection of **Machine Learning**, **Creative Tech**, and **A
 ## 🌠 Fun Fact  
 
 > “Some dream in color, I dream in **code** and **neon gradients**.” 🌈💻  
-
----
