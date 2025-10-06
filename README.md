@@ -45,16 +45,14 @@
 ### 📈 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=faizan-yousaf&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=faizan-yousaf&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=faizan-yousaf&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=faizan-yousaf&theme=tokyonight" alt="GitHub Streak" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=faizan-yousaf&layout=compact&theme=tokyonight" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=faizan-yousaf&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
 
 ---
 
