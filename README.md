@@ -66,24 +66,17 @@ I thrive at the intersection of **Machine Learning**, **Creative Tech**, and **A
 
 ## 🧩 GitHub Contribution Snake 🐍  
 
-> This is one of the coolest parts — it auto-updates daily with your commits!
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/faizan-yousaf/faizan-yousaf/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/faizan-yousaf/faizan-yousaf/output/github-contribution-grid-snake-dark.svg" alt="neon snake animation" width="90%"/>
 </p>
-
-> 🔧 Make sure you have this workflow added to your repo:
-> `.github/workflows/snake.yml` → I’ll give you that file if you want.
 
 ---
 
-## 🌌 Particle Background (Live Demo Embed)  
 
-> GitHub blocks animated SVG backgrounds directly,  
-> but you can simulate it like this 👇
+## 🌌 3D Particle Background  
 
 <p align="center">
-  <img src="https://i.ibb.co/xqTbr6N/particle-bg.gif" alt="particle background" width="100%" />
+  <img src="https://i.ibb.co/hVmDVXL/neon-particles-loop.gif" alt="3D neon particles loop" width="100%" style="border-radius:12px; box-shadow:0 0 25px #00F7FF;" />
 </p>
 
 ---
