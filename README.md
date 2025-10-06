@@ -46,12 +46,13 @@
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=faizan-yousaf&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=faizan-yousaf&theme=tokyonight" />
+  <img width="48%" src="https://streak-stats.demolab.com?user=faizan-yousaf&theme=tokyonight" />
 </p>
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=faizan-yousaf&layout=compact&theme=tokyonight" />
 </p>
+
 
 
 ---
