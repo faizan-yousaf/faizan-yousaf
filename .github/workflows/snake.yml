@@ -1,0 +1,39 @@
+name: Generate Neon Snake
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout GitHub repository
+        uses: actions/checkout@v4
+
+      # Step 2: Generate the glowing snake animation
+      - name: Generate Neon Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: faizan-yousaf
+          # Generate different versions (SVG, dark theme, and GIF)
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=00F7FF&color_dots=#0D1117,#00F7FF,#00D4F5,#00AEEF
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=00F7FF&color_dots=#0D1117,#00F7FF,#00C7F2,#009ACD
+            dist/github-contribution-grid-snake.gif?color_snake=00F7FF&color_dots=#0D1117,#00F7FF,#00C7F2,#009ACD
+
+      # Step 3: Push generated files to the output branch
+      - name: Push Glowing Snake Animation to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
