@@ -76,8 +76,9 @@ I thrive at the intersection of **Machine Learning**, **Creative Tech**, and **A
 ## 🌌 3D Particle Background  
 
 <p align="center">
-  <img src="https://i.ibb.co/hVmDVXL/neon-particles-loop.gif" alt="3D neon particles loop" width="100%" style="border-radius:12px; box-shadow:0 0 25px #00F7FF;" />
+  <img src="https://cdn.pixabay.com/animation/2023/05/14/23/43/23-43-13-359_512.gif" alt="neon particles" width="100%" style="border-radius:12px; box-shadow:0 0 20px #00F7FF;" />
 </p>
+
 
 ---
 
