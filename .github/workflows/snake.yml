@@ -9,31 +9,72 @@ on:
     branches:
       - main
 
+# Allow the workflow to push files/branches
+permissions:
+  contents: write
+
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
-      # Step 1: Checkout the repository
-      - name: Checkout GitHub repository
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      # Step 2: Generate the glowing snake animation
       - name: Generate Neon Snake Animation
         uses: Platane/snk@v3
         with:
+          # your GitHub username (or use ${{ github.repository_owner }} to auto-detect)
           github_user_name: faizan-yousaf
-          # Generate different versions (SVG, dark theme, and GIF)
+          # one output per line; query params customize visuals (hex values WITHOUT '#')
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=00F7FF&color_dots=#0D1117,#00F7FF,#00D4F5,#00AEEF
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=00F7FF&color_dots=#0D1117,#00F7FF,#00C7F2,#009ACD
-            dist/github-contribution-grid-snake.gif?color_snake=00F7FF&color_dots=#0D1117,#00F7FF,#00C7F2,#009ACD
+            dist/github-contribution-grid-snake.svg?color_snake=00F7FF&color_dots=0D1117,00F7FF,00C7F2,009ACD
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=00F7FF&color_dots=0D1117,00F7FF,00C7F2,009ACD
+            dist/github-contribution-grid-snake.gif?color_snake=00F7FF&color_dots=0D1117,00F7FF,00C7F2,009ACD
 
-      # Step 3: Push generated files to the output branch
-      - name: Push Glowing Snake Animation to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+      - name: Prepare for publishing to 'output' branch
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          # keep generated files safe while we switch branches
+          mkdir -p /tmp/snake_assets
+          if [ -d dist ]; then
+            mv dist /tmp/snake_assets/
+          fi
+
+          # configure git user (used for commits)
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # create an orphan branch named 'output' (or reset it if it exists)
+          if git show-ref --verify --quiet refs/heads/output; then
+            git checkout output
+            git rm -rf . || true
+          else
+            git checkout --orphan output
+            git rm -rf . || true
+          fi
+
+          # move generated assets back onto the branch
+          mv /tmp/snake_assets/dist . || true
+          mkdir -p dist
+          ls -la dist || true
+
+      - name: Commit & push generated assets to output branch
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          # If there are files, commit them (skip if nothing changed)
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "chore: update neon snake animations [skip ci]" || true
+            # push to output branch (force replace)
+            git push --force "https://x-access-token:${REPO_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:output
+          else
+            echo "No changes to commit (snake assets unchanged)."
+          fi
