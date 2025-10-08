@@ -44,8 +44,8 @@ I thrive at the intersection of **Machine Learning**, **Creative Tech**, and **A
 <!-- 🧠 GitHub Stats + Streaks -->
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=faizan-yousaf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00F7FF&icon_color=00F7FF" alt="GitHub Stats" />
-  <img width="48%" src="https://streak-stats.demolab.com?user=faizan-yousaf&theme=tokyonight&hide_border=true&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" alt="GitHub Streak" />
-</p>
+  
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=faizan-yousaf&" alt="faizan-yousaf" /></p>
 
 <!-- 🌟 Highlighted Streak GIF -->
 <p align="center">
