@@ -7,9 +7,9 @@
 
 ---
 
-<!-- 🌠 Profile Image with Neon Glow -->
+<!-- ⚡ Neon Motion GIF Intro -->
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/105116211?v=4" alt="profile" width="200" style="border-radius:50%; box-shadow:0 0 30px #00F7FF; border: 3px solid #00F7FF;">
+  <img src="https://res.cloudinary.com/dhditogyd/image/upload/v1759940997/github_1_cqzpwo.gif" alt="neon grid animation" width="100%" style="border-radius:12px; box-shadow:0 0 25px #00F7FF;" />
 </p>
 
 ---
@@ -35,15 +35,26 @@ I thrive at the intersection of **Machine Learning**, **Creative Tech**, and **A
 
 ---
 
-## 🌐 GitHub Stats  
+## 🚀 GitHub Power Zone  
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=faizan-yousaf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF" />
-  <img width="48%" src="https://streak-stats.demolab.com?user=faizan-yousaf&theme=tokyonight&hide_border=true&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=⚡+Tracking+My+Consistency+and+Code+Energy+⚡" alt="Typing SVG" />
 </p>
 
+<!-- 🧠 GitHub Stats + Streaks -->
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=faizan-yousaf&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=faizan-yousaf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00F7FF&icon_color=00F7FF" alt="GitHub Stats" />
+  <img width="48%" src="https://streak-stats.demolab.com?user=faizan-yousaf&theme=tokyonight&hide_border=true&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" alt="GitHub Streak" />
+</p>
+
+<!-- 🌟 Highlighted Streak GIF -->
+<p align="center">
+  <img src="https://media2.giphy.com/media/26gssIytJvy1b1THO/giphy.gif" alt="flame streak" width="600" style="border-radius:10px; box-shadow:0 0 20px #00F7FF;" />
+</p>
+
+<!-- 💻 Top Languages -->
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=faizan-yousaf&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00F7FF" alt="Top Languages" />
 </p>
 
 ---
@@ -64,23 +75,6 @@ I thrive at the intersection of **Machine Learning**, **Creative Tech**, and **A
 
 ---
 
-## 🧩 GitHub Contribution Snake 🐍  
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/faizan-yousaf/faizan-yousaf/output/github-contribution-grid-snake-dark.svg" alt="neon snake animation" width="90%"/>
-</p>
-
----
-
-
-## 🌌 3D Particle Background  
-
-<p align="center">
-  <img src="https://cdn.pixabay.com/animation/2023/05/14/23/43/23-43-13-359_512.gif" alt="neon particles" width="100%" style="border-radius:12px; box-shadow:0 0 20px #00F7FF;" />
-</p>
-
-
----
 
 ## 💬 Connect With Me  
 
